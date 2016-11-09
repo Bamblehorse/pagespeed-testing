@@ -20,7 +20,7 @@ To get started, check out the repository and inspect the code.
 
 * Added new variables to prevent recalculations in updatePositions function on line 504 and changed items to use getElementsByClassName
 * Added variable pizzas, using getElementsByClassName and numberOfPizzas in function changePizzaSizes
-* Changed windowWidth variable to use getElementById rather than queryselector in determineDx
+* Changed windowWidth variable to use getElementById rather than queryselector in determineDx, also removed two variables from for loop which didnt need recalculating
 * Keeping it DRY and using getElementById in changeSliderLabel function
 * added movingpizzas variable in document.addEventListener at end of file, also changed number of pizzas to 18 rather than 200 in for loop as that is the max on the screen at a given time
 
